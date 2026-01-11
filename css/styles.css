@@ -80,13 +80,15 @@ p{
 /* TESTIMONIAL SECTION*/
 
 #testimonials{
-    text-align: center;
-    color:white;
-    background-color: #ff4864dc;
+    /* New CSS for this */
+    background-color: #ef8172;
+    color: #fff;
+    padding: 7% 15%;
 }
 .testimonial-image{
+    /* Also for this */
     width: 15%;
-    border-radius:100%;
+    border-radius: 100%;
     margin: 20px;
 }
 .carousel-item{
@@ -157,6 +159,19 @@ p{
     margin: 20px 20px;
 }
 
+/* Contributions */
+.bark-btn {
+    background-color: #ff4c68;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: none;
+    transition: transform 0.2s;
+}
+.bark-btn:hover {
+    transform: scale(1.1);
+    background-color: #ef8172;
+}
 
 
 
